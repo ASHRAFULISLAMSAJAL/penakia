@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body{
+	
+	font-family: 'Lato', sans-serif;
+	color:#2d3950;
+}
+
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+}
+
+
+img{
+	max-width:100%;
+	background-size:cover;
+	/* height: 220px; */
+	/* width: 200px; */
+}
+
+
+.header-section {
+    width: 100%;background: #edeff1;height: 150px; padding:60px;
+}
+
+.container {
+    width:2000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header-content {
+    
+}
+
+.heade-content-left {width: 20%;float: left;}
+
+
+.heade-content-left h1 {
+}
+
+.heade-content-left p{color: #dd4b2b;}
+
+
+.header-content-right {
+    width: 65%;
+    display:inline-block;
+    text-align:right;
+    margin-right: 100px;
+}
+
+
+nav{
+  float:left;
+    width:100%;
+    
+}
+
+nav ul{
+
+}
+
+nav ul li{
+     display:inline-block;
+}
+
+
+nav ul li a{
+    
+  color:black;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  display:block;
+  
+  text-decoration: none;
+    text-align:center;
+ font-size:30px bold;
+
+}
+
+
+nav ul li:hover a{
+background: #dd4b2b;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  color:white;
+
+  text-decoration: none;
+  border-radius: 26px;
+    
+}
+
+
+.banner-section {
+    background:url("../images/Panakeia_banner-image.jpg");
+    width:100%;
+    background-size:cover;
+    box-sizing:border-box;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    position: relative;
+    height: 100vh;
+}
+
+.banner-upper-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    color: #fff;
+    font-size: 72px;
+    text-align: center;
+}
+
+.banner-upper-text h1{
+    
+    
+}
+
+.banner-upper-text span{
+    font-size: 30px;
+}
+
+.banner-down-content{
+    
+display: inline;
+    
+width: 100%;
+    
+position: absolute;
+    
+left: 50%;
+    
+top: 82%;
+    
+transform: translate(-50%,-82%);
+    
+margin: 0 auto;
+    
+text-align: center;
+}
+
+.down-single-content{
+    
+width: 33.33%;
+    
+float: left;
+    
+/* position: absolute; */
+    
+text-align: center;
+    
+padding: 10px 50px;
+    
+color: #fff;
+}
+
+
+.down-single-content h2{
+    
+}
+
+
+.down-single-content p{
+    
+}
+
+.image{
+    
+}
+
+
+.image img{
+    
+border: 2px solid fff;
+    
+border: 5px solid #fff;
+    
+border-radius: 50%;
+}
+
+.banner-content {position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);height: 400px;/* height: 1200px; */width: 1150px; text-align:center;}
+
+
+/*.banner-logo {height: 220px;widht: 200px;/* width: 200px; text-align: center;}
+*/
+
+
+.banner-logo{
+    height: 220px;
+    width: 220px;
+    background: white;
+    border-radius: 50%;
+    padding: 35px;
+    position: absolute;
+    top: -35%;
+    left:50%;
+    transform: translate(-50%,35%);
+}
+.banner-logo img{
+   background-size:cover;
+    box-sizing:border-box;
+}
+
+.banner-text {width:100%; position: absolute;top: 106%;left: 50%;transform: translate(-50%,-106%);}
+
+.banner-text h1{
+    color:#dd2e44;font-size: 48px;
+}
+
+.banner-text p{
+    color:#fff;
+    font-size:24px;
+}
+
+.banner-link {text-decoration: none;margin-top: 20px;}
+
+.banner-link a{
+    
+text-decoration: none;
+    
+color: #fff;
+    
+
+    
+border: 2px solid red;
+    
+padding: 5px 10px;
+    
+border-radius: 10px;
+    
+margin-top: 40px;
+    
+background: red;
+}
+
+.banner-btn {
+}
+
+
+.banner-btn input{
+    background: #fff;
+    
+    height: 30px;
+    width: 200px;
+    display: block;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%,2500%);
+}
+
+
+/* our news section css   start */
+
+.ournews-section {width: 100%;display: inline;background: #edeff1;}
+
+.news-content {
+   text-align:center; 
+}
+
+.news-heading {text-align: center;padding: 90px 20px;font-size:30px;}
+
+
+.news-heading h2{/* left: 0px; */}
+
+.news-image {min-width: 100%;display: inline;}
+
+.single-news {width: 33.33%;float: left;text-align: center;padding: 10px;box-sizing: border-box;background-size: cover;}
+
+
+.single-news p{
+    
+}
+
+
+.single-news img{min-width: 100%;background-size: cover;box-sizing: border-box;text-align: center;}
+
+.single-news span{
+    
+}
+
+
+.news-btn {
+}
+
+
+.news-btn input{
+    background: #ffffff;
+    padding: 15px 45px;
+    border-radius: 45px;
+    margin-top: 40px;
+    font-size: 20px bold;
+    font-size: 25px;
+}
+
+.newsletter-section {  background:url(../images/Panakeia_last-image.jpg);
+    background-repeat:no-repeat;
+    min-width:100%;
+    box-sizing:border-box;
+    background-size:cover;
+    
+
+position:relative; margin-top:80px;}
+
+.newsletter-content {text-align: center;width: 100%;padding:100px 20px;}
+
+.newsletter-text {
+}
+
+
+.newsletter-text h2{text-align: center;font-size: 30px;}
+
+
+
+.newsletter-text p{
+}
+
+
+.signup-form {width: 100%;display:block;margin: 0 auto;padding: 40px 10px;text-align: center; position:abosolute; top:50%;left:50%; transform:trasnlate(-50%,-50%);}
+
+.form-left {width: 50%;float: left;/* background: red; */background: transparent;}
+
+
+.form-left input{
+    width: 700px;
+    height: 70px;
+    line-height: 70px;
+    text-align: left;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+.form-right {float: left;position: absolute;left: 39%;top: 69%;transform: translate(-39%,-50%);}
+
+
+.form-right input{
+    width: 300px;
+    height: 70px;
+    border-radius: 48px;
+    line-height: 70px;
+    text-align: center;
+}
+
+
+
+
+/* our news section css   end */
+
+
+
+
+.dolor-sit-section {
+    
+    background:#ffffff;
+   margin-top:120px;
+}
+
+.dolor-sit-content {
+     width:100%;
+     display:inline;
+    float:left;
+    text-align:center;
+}
+
+.single-dolor-sit{
+    
+    width: 50%;
+    float: left;
+    display: inline;
+
+    box-sizing:border-box;
+    background-size:cover;
+    padding:15px 20px;
+
+}
+
+
+
+
+.dolor-image img{
+    box-sizing:border-box;
+    background-size:cover;
+    max-width:100%;
+}
+
+.single-dolor-sit h2{
+    font-size:30px;
+    color:#191b29;
+    padding:30px;
+}
+
+
+
+
+.single-dolor-sit p{
+    font-size:16px;
+    color:#191b29;
+    padding:10px;
+}
+
+
+
+.dolor-sit-btn{
+    padding: 40px;
+}
+
+
+.dolor-sit-btn input{
+    background: red;
+    border-radius: 15px;
+    height: 70px;
+    width: 200px;
+}
+
+
+
+
+
+
+.dolor-sit-right-btn {
+}
+
+
+.dolor-sit-right-btn input{
+    
+}
+
+
+
+
+
+
+.dolor-sit2-left h2{
+}
+
+
+.dolor-sit2-left p{
+}
+
+.dolor-sit2-left span{
+}
+
+
+
+.dolor-sit2-left {
+}
+
+
+.dolor-sit2-left-btn {
+}
+
+
+.dolor-sit2-left-btn input{
+    
+}
+
+.dolor-sit2-right {
+}
+
+.dolor-sit2-right-btn {
+}
+
+
+.dolor-sit2-right-btn input{
+    
+}
+
+.last-paragraph-section {
+    background:#d75d0e;
+}
+
+.last-paragraph-content {
+    padding:100px 20px;
+}
+
+.single-paragraph {
+    width:33.33%;
+    float:left;
+    display:inline;
+    text-align:center;
+    
+}
+
+
+.single-paragraph p{
+    font-size:18px;
+}
+.footer-section{
+    background:url(../images/Panakeia_last-image.jpg);
+    background-repeat:no-repeat;
+    min-width:100%;
+    box-sizing:border-box;
+    background-size:cover;
+    
+}
+
+.footer-content {
+    padding:100px;
+    text-align:center;
+}
+
+
+.footer-content p{
+}
+
+
